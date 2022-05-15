@@ -5,6 +5,7 @@ package exemplo.modelo;
  * @author Guilherme
  */
 public class Filme {
+
     private Long id;
     private String titulo;
     private String sinopse;
@@ -21,6 +22,10 @@ public class Filme {
         this.trailer = trailer;
     }
     
+    public Filme(){
+        
+    }
+
     public Long getId() {
         return id;
     }
