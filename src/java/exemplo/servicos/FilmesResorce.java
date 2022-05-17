@@ -11,6 +11,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PUT;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.core.MediaType;
 
 /**
@@ -44,6 +45,18 @@ public class FilmesResorce {
         return gson.toJson(filmes);
     }
 
+    @Path("{filmeId}")
+    @GET
+    @Produces("application/json")
+    public String getFilme(@PathParam("filmeId")String id) {
+        for (Filme filme : filmes) {
+            if(filme.getId().equals(Long.valueOf(id))){
+                Gson gson = new Gson();
+                return gson.toJson(filme);
+            }
+        }
+        return null;
+    }
     /**
      * PUT method for updating or creating an instance of FilmesResorce
      * @param content representation for the resource
