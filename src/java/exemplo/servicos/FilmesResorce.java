@@ -29,9 +29,9 @@ public class FilmesResorce {
      */
     public FilmesResorce() {
         filmes = new ArrayList<Filme>();
-        filmes.add(new Filme(1L,"Jogos da Jogos Vorazes: Em chamas", "Continuidade ao filme jogos da Jogos Vorazes: a esperança", "acao",121,"<iframe width='560' height='315' scr='https://www.youtube.com/watch?v=cKyrXQSsSl4' frameborder='0' allowfullscreen></iframe>"));
-        filmes.add(new Filme(2L, "La La Land", "Musical sobre o amor","romance",231,"<iframe width='560' height='315' scr='https://www.youtube.com/watch?v=0pdqf4P9MB8' frameborder='0' allowfullscreen></iframe>"));
-        filmes.add(new Filme(3L, "Forrest Gump", "Forrest, um homem com baixo QI, relata os primeiros anos de sua vida, quando se viu no meio de eventos históricos importantes", "Drama/Romance",133,"<iframe width='560' height='315' scr='https://www.youtube.com/watch?v=bLvqoHBptjg&ab_channel=ParamountMovies' frameborder='0' allowfullscreen></iframe>"));
+        filmes.add(new Filme(1L,"Jogos da Jogos Vorazes: Em chamas", "Continuidade ao filme jogos da Jogos Vorazes: a esperança", "acao",121,"<iframe width='560' height='315' scr='//www.youtube.com/watch?v=cKyrXQSsSl4' frameborder='0' allowfullscreen></iframe>"));
+        filmes.add(new Filme(2L, "La La Land", "Musical sobre o amor","romance",231,"<iframe width='560' height='315' scr='//www.youtube.com/watch?v=0pdqf4P9MB8' frameborder='0' allowfullscreen></iframe>"));
+        filmes.add(new Filme(3L, "Forrest Gump", "Forrest, um homem com baixo QI, relata os primeiros anos de sua vida, quando se viu no meio de eventos históricos importantes", "Drama/Romance",133,"<iframe width='560' height='315' scr='//www.youtube.com/watch?v=bLvqoHBptjg&ab_channel=ParamountMovies' frameborder='0' allowfullscreen></iframe>"));
     }
 
     /**
